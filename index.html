@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Contact Form Design</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-container">
+            <div class="img-container">
+                <img src="image.jpg" alt="">
+            </div>
+            <form>
+                <h2>Booking your trip to paris!</h2>
+                <div class="form-group">
+                    <input type="text" id="name" autocomplete="off" required>
+                    <label for="name">Your name</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" id="email" autocomplete="off" required>
+                    <label for="email">Your email</label>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="tel" autocomplete="off" required>
+                    <label for="tel">Your phone number</label>
+                </div>
+                <div class="form-group-last">
+                    <p>How many people are comming with you?</p>
+                    <div class="inner-group">
+                        <input type="radio" id="radio1" name="radio">
+                        <input type="radio" id="radio2" name="radio">
+                        <input type="radio" id="radio3" name="radio">
+                        <input type="radio" id="radio4" name="radio">
+                        <label for="radio1">
+                            <span class="num-span">1</span>
+                            <span class="txt-span">Person</span>
+                        </label>
+                        <label for="radio2">
+                            <span class="num-span">2</span>
+                            <span class="txt-span">People</span>
+                        </label>
+                        <label for="radio3">
+                            <span class="num-span">3</span>
+                            <span class="txt-span">People</span>
+                        </label>
+                        <label for="radio4">
+                            <span class="num-span">4</span>
+                            <span class="txt-span">People</span>
+                        </label>
+                    </div>
+                </div>
+                <button>Book now</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
